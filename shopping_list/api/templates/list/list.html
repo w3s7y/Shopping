@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lists</title>
+</head>
+<body>
+    {% for list in items %}
+        <ol>
+            <li>{{ list.id }}</li>
+            <li>{{ list.name }}</li>
+            <li>{{ list.owner }}</li>
+            <li>{{ list.id }}</li>
+        </ol>
+    {% endfor %}
+</body>
+</html>

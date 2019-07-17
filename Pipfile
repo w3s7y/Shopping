@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+green = "*"
+flake8 = "*"
+requests = "*"
+
+[packages]
+django-filter = "*"
+djangorestframework = "*"
+psycopg2 = "*"
+pytz = "*"
+sqlparse = "*"
+Django = "*"
+Markdown = "*"
+
+[requires]
+python_version = "3.7"
